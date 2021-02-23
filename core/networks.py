@@ -23,7 +23,7 @@ from tools.ai.torch_utils import resize_for_tensors
 #######################################################################
 # Normalization
 #######################################################################
-from .sync_batchnorm.batchnorm import SynchronizedBatchNorm2d
+#from .sync_batchnorm.batchnorm import SynchronizedBatchNorm2d
 
 class FixedBatchNorm(nn.BatchNorm2d):
     def forward(self, x):
